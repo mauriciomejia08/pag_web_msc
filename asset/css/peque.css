@@ -4,3 +4,37 @@
 body {
     font-size: 1.2em
 }
+header img {
+    margin : auto;
+    display: block;
+}
+nav#var_nav_fija {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+nav#var_nav_fija ul {
+    list-style: none;
+    margin: 0;
+    padding: auto;
+    overflow: hidden;
+    width: 100%
+}
+nav#var_nav_fija ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav#var_nav_fija ul li a {
+    
+}
+nav#var_nav_sticky {
+    width:90%;
+    height:100%;
+    left:-100%;
+    margin:0;
+    position: sticky;
+    top: 0;
+}
