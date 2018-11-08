@@ -7,12 +7,19 @@
 .display-peque{
     display: none;
 }
-body{
-    margin: 1%;
+html{
+    margin: 0%;
     padding: 0%;
+    border: 0;
     font-family: georgian, serif;
+    background-image: url(../img/background.jpg); /*imagen de fondo*/
+    background-position: center center; /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-repeat: no-repeat; /* Para que la imagen de fondo no se repita */
+    background-attachment: fixed; /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-size: cover; /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
 }
-html {
-    border: 1%;
+body {
     margin: 0;
+    border: 0;
+    padding: 1%;
 }
