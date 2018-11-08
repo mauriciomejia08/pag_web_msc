@@ -1,0 +1,33 @@
+.display-medio{
+    display: inherit !important;
+}
+h1, h2 {
+    text-align: left;
+}
+ul {
+    padding: 0;
+}
+div#art1 {
+    float: left;
+    text-align: left;
+    width: 30%;
+    margin: 0;
+}
+ul#datosp {
+    list-style-type: none;
+}
+ul#datosp li strong {
+    display: block;
+}
+ul#datosp li{
+    margin-bottom: 0.8em;
+}
+section#cold {
+        float: left;
+        width: 70%;
+}
+ul#formaca, ul#explab {
+    list-style-position: inside;
+    width: auto;
+    padding-left: 2em;
+}
