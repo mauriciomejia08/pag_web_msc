@@ -11,6 +11,8 @@ html{
     margin: 0%;
     padding: 0%;
     border: 0;
+    width: 100%;
+    max-width: 100%
     font-family: georgian, serif;
     background-image: url(../img/background.jpg); /*imagen de fondo*/
     background-position: center center; /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
@@ -21,11 +23,12 @@ html{
 body {
     margin: 0;
     border: 0;
-    padding: 1%;
+    padding: 0;
     font-family:"metropolisregular", "Helvetica Neue", Arial, sans-serif;
     font-size: 1em;
     font-weight: 500;
     line-height: 1.5;
+    max-width: 100%
 }
 a {
     text-decoration: none;
@@ -35,26 +38,37 @@ header {
     margin: 0;
     padding: 0;
 }
-nav {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
 ul {
     list-style: none;
-    list-style-position: inside;
-    width: 100%;
+}
+main {
     margin: 0;
+    border: 0;
     padding: 0;
-    border-radius: 5px 5px 5px 5px;
-    -moz-border-radius: 5px 5px 5px 5px;
-    -webkit-border-radius: 5px 5px 5px 5px;
-    border: 0px solid #000000;
+    width: 100%;
+    max-width: 100%
 }
-li {
+aside {
     margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%; 
 }
-li a {
+footer {
     margin: 0;
-    text-align: center;
+    border: 0;
+    padding: 0;
+    width: 100%; 
+}
+p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%; 
+}
+h1, h2, h3 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%; 
 }

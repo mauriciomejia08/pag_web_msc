@@ -12,6 +12,9 @@ nav#var_nav_fija ul {
 li a:hover, a:active {
     background-color: rgba(28, 31, 42, 0.9);
 }
+.active {
+    background-color: rgba(28, 31, 42, 0.9);
+}
 /*nav#var_nav_fija ul li {
-    border: 2px solid #FFFFE6;
+    outline: 2px solid #FFFFE6;
 }*/
