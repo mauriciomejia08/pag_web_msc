@@ -5,6 +5,13 @@ body {
 /*nav {
     background-color: #e93b38 !important;
 }*/
-nav#var_nav_fija ul li {
-    border: 2px solid rgba(28, 31, 42, 0.9);
+li a {color: #FFFFE6;}
+nav#var_nav_fija ul {
+    background-color: #e93b38;
 }
+li a:hover, a:active {
+    background-color: rgba(28, 31, 42, 0.9);
+}
+/*nav#var_nav_fija ul li {
+    border: 2px solid #FFFFE6;
+}*/
