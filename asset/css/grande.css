@@ -1,6 +1,3 @@
 .display-grande{
     display: inherit !important;
 }
-div#art1, div#art2, div#art3 {
-    float: left;
-}

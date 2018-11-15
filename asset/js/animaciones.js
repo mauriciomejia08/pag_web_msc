@@ -1,23 +1,20 @@
-/* $(document).ready(main);
- 
-var contador = 1;
- 
-function main(){
-	$('.menu_bar').click(function(){
-		// $('nav').toggle(); 
- 
-		if(contador == 1){
-			$('nav').animate({
-				left: '0'
-			});
-			contador = 0;
-		} else {
-			contador = 1;
-			$('nav').animate({
-				left: '-100%'
-			});
-		}
- 
-	});
- 
+//function(){
+//variables
+var navHorizontal = document.getElementById("var_nav_fija");
+var menu = document.getElementById("menuDesp");
+//funciones
+function desplegarBarra(){
+	alert("Desplegar Barra");
+	navHorizontal.style.width = ()
+}
+function desplegarMenu(){}
+/*for(i=0; i < enlace.length; i++ ){
+	if(document.getElementById(r1).style.display == 'block'){
+		document.getElementById(r1).style.display = 'none';
+	} else {
+		document.getElementById(r1).style.display = 'block';
+	}
 };*/
+//eventos
+
+//}());

@@ -2,7 +2,7 @@
     display: inherit !important;
 }
 body {
-    font-size: 1.2em
+    font-size: 1.2em;
 }
 body > img {
     margin : auto;
@@ -12,26 +12,26 @@ nav {
     text-align: center;
     margin: 0;
     padding: 0;
-    border: 0;
-    display: block;
     position: sticky;
     top: 0;
+    width: 100%;
 }
 nav#var_nav_fija ul {
-    display: inline-block;
-    margin: auto;
-    padding: 0;
-    width: 100%;
-    border-radius: 0.5em;
+    text-align: center;
+    overflow: hidden;
 }
 nav#var_nav_fija ul li {
-    float: right;
-    max-width: 100%;
-    width: auto;
+    float: left;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 nav#var_nav_fija ul li a {
-    border: 0;
-    padding: 0.76em;
+    text-align: center;
+    padding: 0.25em;
     margin: 0;
     display: block;
+}
+.ocultar {
+    display: none;
 }
