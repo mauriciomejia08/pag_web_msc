@@ -35,3 +35,32 @@ nav#var_nav_fija ul li a {
 .ocultar {
     display: none;
 }
+li#dropDown {
+    margin: 0;
+    padding: 0;
+    transition: background-color 2s;
+}
+li#dropDown a {
+    padding: 0 !important;
+}
+ul#dropbtn {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 20px 40px 0px rgba(255,255,255,0.2) !important;/*Colocar un borde*/
+    padding: 0;
+    z-index: 1;
+}
+ul#dropbtn li{
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+ul#dropbtn li a{
+    text-align: left !important;
+    margin: 0;
+}
+#dropDown:hover #dropbtn {
+    display: block !important;
+    position: absolute !important;
+}
+/*Alineado a la derecha right: 0;*/

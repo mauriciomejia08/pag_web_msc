@@ -15,6 +15,9 @@ li a:hover, a:active {
 .active {
     background-color: rgba(28, 31, 42, 0.9);
 }
+#dropDown:hover{
+    background-color: rgba(28, 31, 42, 0.9);
+}
 /*nav#var_nav_fija ul li {
     outline: 2px solid #FFFFE6;
 }*/
