@@ -16,7 +16,7 @@ nav {
     top: 0;
     width: 100%;
 }
-nav#var_nav_fija ul {
+nav#var_nav_fija > ul {
     text-align: center;
     overflow: hidden;
 }
@@ -32,20 +32,25 @@ nav#var_nav_fija ul li a {
     margin: 0;
     display: block;
 }
-.ocultar {
-    display: none;
-}
 li#dropDown {
-    margin: 0;
-    padding: 0;
-    transition: background-color 2s;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-transition: background-color 2s !important;
+    transition: background-color 2s !important;
 }
 li#dropDown a {
     padding: 0 !important;
+    margin: 0;
+    width: 100%;
+}
+li#dropDown a img{
+    padding: 0;
+    margin: 0;
+    width: 58%;
 }
 ul#dropbtn {
     display: none;
-    min-width: 160px;
+    min-width: 56.5%;
     box-shadow: 0px 20px 40px 0px rgba(255,255,255,0.2) !important;/*Colocar un borde*/
     padding: 0;
     z-index: 1;
@@ -59,8 +64,16 @@ ul#dropbtn li a{
     text-align: left !important;
     margin: 0;
 }
-#dropDown:hover #dropbtn {
-    display: block !important;
-    position: absolute !important;
+footer p {
+    display: inline-block;
+    position: absolute;
 }
+p#page {
+    right: 0;
+}
+
+/*#dropDown:hover #dropbtn {
+    display: block;
+    position: absolute;
+}*/
 /*Alineado a la derecha right: 0;*/

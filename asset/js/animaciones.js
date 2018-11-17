@@ -15,14 +15,14 @@ function desplegarBarra(){
 		}
 		var despnav = setInterval(Desplegar_navbar ,9);
 }
-function desplegarMenu(){}
-/*for(i=0; i < enlace.length; i++ ){
-	if(document.getElementById(r1).style.display == 'block'){
-		document.getElementById(r1).style.display = 'none';
-	} else {
+function MostrarOcultar(r1){
+	if(document.getElementById(r1).style.display == 'none'){
+		document.getElementById(r1).style.position = 'absolute';
 		document.getElementById(r1).style.display = 'block';
+	} else {
+		document.getElementById(r1).style.display = 'none';
 	}
-};*/
+}
 //eventos
 
 //}());

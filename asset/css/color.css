@@ -1,10 +1,7 @@
 body {
-    background-color: rgba(28, 31, 42, 0.9);
+    background-color: rgba(28, 31, 42, 0.9) !important;
     color: #FFFFE6;
 }
-/*nav {
-    background-color: #e93b38 !important;
-}*/
 li a {color: #FFFFE6;}
 nav#var_nav_fija ul {
     background-color: #e93b38;
@@ -12,12 +9,9 @@ nav#var_nav_fija ul {
 li a:hover, a:active {
     background-color: rgba(28, 31, 42, 0.9);
 }
-.active {
-    background-color: rgba(28, 31, 42, 0.9);
-}
 #dropDown:hover{
     background-color: rgba(28, 31, 42, 0.9);
 }
-/*nav#var_nav_fija ul li {
-    outline: 2px solid #FFFFE6;
-}*/
+p a {
+    color: #ff4040;
+}
