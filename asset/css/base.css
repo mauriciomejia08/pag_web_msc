@@ -27,7 +27,7 @@ body {
     font-size: 1em;
     font-weight: 500;
     line-height: 1.5;
-    max-width: 100%
+    max-width: 100%;
 }
 a {
     text-decoration: none;
@@ -48,21 +48,13 @@ ul {
 }
 main {
     margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 100%
+    padding: 0 3% 0 3%;
+    width: 94%;
 }
 aside {
     margin: 0;
-    border: 0;
-    padding: 0;
-    width: 100%; 
-}
-footer {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    width: 100%; 
+    padding: 0 3% 0 3%;
+    width: 94%;
 }
 p {
     margin: 0;
@@ -74,4 +66,18 @@ h1, h2, h3 {
     border: 0;
     padding: 0;
     width: 100%; 
+}
+footer {
+    width: 90%;
+    padding: 5% 0 2.5% 5%;
+    margin: 0;
+    border: 0;
+}
+footer p {
+    display: inline-block;
+    position: absolute;
+}
+p#page {
+    right: 0;
+    padding-right: 5%;
 }

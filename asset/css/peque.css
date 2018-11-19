@@ -4,7 +4,7 @@
 body {
     font-size: 1.2em;
 }
-body > img {
+header > img {
     margin : auto;
     display: block;
 }
@@ -50,7 +50,7 @@ li#dropDown a img{
 }
 ul#dropbtn {
     display: none;
-    min-width: 56.5%;
+    /*min-width: 56.5%;*/
     box-shadow: 0px 20px 40px 0px rgba(255,255,255,0.2) !important;/*Colocar un borde*/
     padding: 0;
     z-index: 1;
@@ -63,13 +63,6 @@ ul#dropbtn li{
 ul#dropbtn li a{
     text-align: left !important;
     margin: 0;
-}
-footer p {
-    display: inline-block;
-    position: absolute;
-}
-p#page {
-    right: 0;
 }
 
 /*#dropDown:hover #dropbtn {

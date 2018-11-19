@@ -12,11 +12,12 @@
         <script type="text/javascript" src="asset/js/animaciones.js"></script>
     </head>
     <body onload="desplegarBarra()">
+        <header>
             <img src="asset/img/msclogo.png" alt="logo" width="200px" height=""/>
             <nav id="var_nav_fija">
                 <ul>
                     <li class="display-peque" id="dropDown"><a href="javascript:;" onclick="MostrarOcultar('dropbtn')"><img src="asset/img/icon-menu50.png" alt="menu" width="100%"/></a>
-                        <ul id="dropbtn" style="display: none;">
+                        <ul id="dropbtn" style="display: none; width: 0;">
                             <li><a href="#">Web</a>
                             </li>
                             <li><a href="#">Móvil</a>
@@ -30,10 +31,7 @@
                     <li><a href="#">FAQs</a></li>
                 </ul>
             </nav>
-        <header>
-            <h1 class="display-peque">Texto en pantalla pequeña</h1>
-            <h1 class="display-medio">Texto en pantalla mediana</h1>
-            <h1 class="display-grande">Texto en pantalla grande</h1>
+
         </header>
         <nav class="display-grande display-medio"></nav>
         <main>
@@ -44,8 +42,9 @@
         <aside class="display-grande display-medio"><p>sdaasdasdasdasdas
                 <br/>saddass</p></aside>
         <footer>
-            <p id="contact">Contacto</p>
+            <p id="contact"><a href="contacto.html" target="blank">Contacto</a></p>
             <p id="page">© 2018 ,<a href="https://www.mobilesuitcase.com" target="blank">Mobile SuitCase.</a></p>
+            <br/>
         </footer>
     </body>
 </html>
