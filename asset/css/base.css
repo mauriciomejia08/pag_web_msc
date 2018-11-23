@@ -7,6 +7,9 @@
 .display-peque{
     display: none;
 }
+.oculto {
+    display: none !important;
+}
 html{
     margin: 0%;
     padding: 0%;
@@ -48,13 +51,14 @@ ul {
 }
 main {
     margin: 0;
-    padding: 0 3% 0 3%;
-    width: 94%;
+    padding: 0;
 }
+    main h1 {
+    text-align: center;
+    }
 aside {
     margin: 0;
-    padding: 0 3% 0 3%;
-    width: 94%;
+    padding: 0;
 }
 p {
     margin: 0;
@@ -76,8 +80,10 @@ footer {
 footer p {
     display: inline-block;
     position: absolute;
+    z-index: 0;
 }
 p#page {
     right: 0;
     padding-right: 5%;
+    z-index: 0;
 }

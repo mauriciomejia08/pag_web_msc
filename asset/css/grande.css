@@ -1,3 +1,19 @@
 .display-grande{
     display: inherit !important;
 }
+nav#nav_var_mg, main, aside {
+    float: left !important;
+}
+nav#nav_var_mg {
+    width: 20% !important;
+}
+main {
+    width: 60% !important;
+}
+aside {
+    width: 20% !important;
+    background-color: red !important;
+}
+footer {
+    
+}

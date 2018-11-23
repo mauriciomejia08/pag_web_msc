@@ -8,13 +8,13 @@ header > img {
     margin : auto;
     display: block;
 }
-nav {
+nav#var_nav_fija {
     text-align: center;
     margin: 0;
     padding: 0;
-    position: sticky;
-    top: 0;
-    width: 100%;
+    position:-webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
 }
 nav#var_nav_fija > ul {
     text-align: center;
@@ -50,23 +50,50 @@ li#dropDown a img{
 }
 ul#dropbtn {
     display: none;
-    /*min-width: 56.5%;*/
-    box-shadow: 0px 20px 40px 0px rgba(255,255,255,0.2) !important;/*Colocar un borde*/
+    box-shadow: 0px 60px 40px 0px rgba(0,0,0,0.9) !important;/*Colocar un borde*/
     padding: 0;
-    z-index: 1;
+    z-index: 2;
+    overflow: auto;
+    height: 530px !important;
 }
 ul#dropbtn li{
     display: block;
+    position: none;
     margin: 0;
     width: 100%;
 }
 ul#dropbtn li a{
     text-align: left !important;
     margin: 0;
+    z-index: 1;
 }
-
-/*#dropDown:hover #dropbtn {
+ul#web, ul#movil, ul#sol {
     display: block;
-    position: absolute;
-}*/
-/*Alineado a la derecha right: 0;*/
+    text-align: right;
+    z-index: 1;
+}
+ul#web, ul#movil, ul#sol {
+    text-align: right !important;
+    right: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+ul#web li, ul#movil li, ul#sol li {
+    width: 100%;
+    /*z-index: 1;*/
+    z-index: 1;
+}
+ul#web a, ul#movil a, ul#sol a {
+    text-align: right !important;
+    margin: 0 !important;
+    z-index: 2 !important;
+}
+main {
+    padding: 3% 3% 0 3% !important;
+    width: 94% !important;
+}
+footer {
+    z-index: -1;
+}

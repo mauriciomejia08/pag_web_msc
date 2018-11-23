@@ -14,33 +14,105 @@
     <body onload="desplegarBarra()">
         <header>
             <img src="asset/img/msclogo.png" alt="logo" width="200px" height=""/>
-            <nav id="var_nav_fija">
-                <ul>
-                    <li class="display-peque" id="dropDown"><a href="javascript:;" onclick="MostrarOcultar('dropbtn')"><img src="asset/img/icon-menu50.png" alt="menu" width="100%"/></a>
-                        <ul id="dropbtn" style="display: none; width: 0;">
-                            <li><a href="#">Web</a>
-                            </li>
-                            <li><a href="#">Móvil</a>
-                            </li>
-                            <li><a href="#">Solicitudes</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Acompañamiento</a></li>
-                    <li><a href="#">Tutoriales</a></li>
-                    <li><a href="#">FAQs</a></li>
-                </ul>
-            </nav>
-
         </header>
-        <nav class="display-grande display-medio"></nav>
+        <nav id="var_nav_fija">
+            <ul>
+                <li class="display-peque" id="dropDown"><a href="javascript:;" onclick="MostrarOcultar('dropbtn',5,100,100,25)"><img src="asset/img/icon-menu50.png" alt="menu" width="100%"/></a>
+                    <ul id="dropbtn" style="display: none; width: 0;">
+                        <li><a href="javascript:;" onclick="MostrarOcultar('web',5,73,73,25)">web</a>
+                            <ul id="web" style="display:none;">
+                                <li><a href="#">¿No me aparecen los gráficos y mapas en la plataforma?</a></li>
+                                <li><a href="#">¿Como importar cuentas, asignación de cuentas y visitas?</a></li>
+                                <li><a href="#">¿Error en las fechas al importar visitas?</a></li>
+                                <li><a href="#">¿Lentitud en plataforma WEB?</a></li>
+                                <li><a href="#">¿No aparece el recorrido de uno o varios usuarios?</a></li>
+                                <li><a href="#">¿No me muestra la ubicación correcta del usuario?</a></li>
+                                <li><a href="#">¿Que es el Geocomando como enviarlo y porque no responde el dispositivo?</a></li>
+                                <li><a href="#">¿No se visualiza correctamente el módulo de catalogo - Cuentas?</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:;" onclick="MostrarOcultar('movil',5,73,73,25)">Móvil</a>
+                            <ul id="movil" style="display:none;">
+                                <li><a href="#">¿Como instalar la aplicación?</a></li>
+                                <li><a href="#">¿El equipo no permite instalar la aplicación?</a></li>
+                                <li><a href="#">¿Cómo sé el IMEI de mi equipo?</a></li>
+                                <li><a href="#">¿Al instalar la aplicació aparece el mensaje “Su línea no se encuentra activa”?</a></li>
+                                <li><a href="#">¿Al intentar enviar una alerta me aparece el mensaje “Error en envío de alertas”?</a></li>
+                                <li><a href="#">¿No aparecen las cuentas, actividades, productos y/o formularios asignados al usuario en la aplicación?</a></li>
+                                <li><a href="#">¿Al intentar iniciar una visita me aparece un mensaje “Ya existe un evento de tipo visita en estado iniciada”?</a></li>
+                                <li><a href="#">¿Cómo borrar datos y caché?</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:;" onclick="MostrarOcultar('sol',5,73,73,25)">Solicitudes</a>
+                            <ul id="sol" style="display:none;">
+                                <li><a href="#">¿Como agregar un nuevo usuario?</a></li>
+                                <li><a href="#">¿Como cambiar el IMEI de un usuaio?</a></li>
+                                <li><a href="#">¿Cómo solicitar la baja o inactivación de un usuario?</a></li>
+                                <li><a href="#">¿Solicitar cargue de catalogos?</a></li>
+                                <li><a href="#">¿Al intentar enviar una alerta me aparece el mensaje “Error en envío de alertas”?</a></li>
+                                <li><a href="#">¿No aparecen las cuentas, actividades, productos y/o formularios asignados al usuario en la aplicación?</a></li>
+                                <li><a href="#">¿Al intentar iniciar una visita me aparece un mensaje “Ya existe un evento de tipo visita en estado iniciada”?</a></li>
+                                <li><a href="#">¿Cómo borrar datos y caché?</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Acompañamiento</a></li>
+                <li><a href="#">Tutoriales</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </nav>
+        <nav id="nav_var_mg" class="display-grande display-medio">
+            <ul>
+                <li>Web:
+                    <ol>
+                        <li><a href="#">¿No me aparecen los gráficos y mapas en la plataforma?</a></li>
+                        <li><a href="#">¿Como importar cuentas, asignación de cuentas y visitas?</a></li>
+                        <li><a href="#">¿Error en las fechas al importar visitas?</a></li>
+                        <li><a href="#">¿Lentitud en plataforma WEB?</a></li>
+                        <li><a href="#">¿No aparece el recorrido de uno o varios usuarios?</a></li>
+                        <li><a href="#">¿No me muestra la ubicación correcta del usuario?</a></li>
+                        <li><a href="#">¿Que es el Geocomando como enviarlo y porque no responde el dispositivo?</a></li>
+                        <li><a href="#">¿No se visualiza correctamente el módulo de catalogo - Cuentas?</a></li>    
+                    </ol>
+                </li>
+                <li>Móvil:
+                    <ol>
+                        <li><a href="#">¿Como instalar la aplicación?</a></li>
+                        <li><a href="#">¿El equipo no permite instalar la aplicación?</a></li>
+                        <li><a href="#">¿Cómo sé el IMEI de mi equipo?</a></li>
+                        <li><a href="#">¿Al instalar la aplicació aparece el mensaje “Su línea no se encuentra activa”?</a></li>
+                        <li><a href="#">¿Al intentar enviar una alerta me aparece el mensaje “Error en envío de alertas”?</a></li>
+                        <li><a href="#">¿No aparecen las cuentas, actividades, productos y/o formularios asignados al usuario en la aplicación?</a></li>
+                        <li><a href="#">¿Al intentar iniciar una visita me aparece un mensaje “Ya existe un evento de tipo visita en estado iniciada”?</a></li>
+                        <li><a href="#">¿Cómo borrar datos y caché?</a></li>
+                    </ol>
+                </li>
+                <li>Solicitudes:
+                    <ol>
+                        <li><a href="#">¿Como agregar un nuevo usuario?</a></li>
+                        <li><a href="#">¿Como cambiar el IMEI de un usuaio?</a></li>
+                        <li><a href="#">¿Cómo solicitar la baja o inactivación de un usuario?</a></li>
+                        <li><a href="#">¿Solicitar cargue de catalogos?</a></li>
+                        <li><a href="#">¿Al intentar enviar una alerta me aparece el mensaje “Error en envío de alertas”?</a></li>
+                        <li><a href="#">¿No aparecen las cuentas, actividades, productos y/o formularios asignados al usuario en la aplicación?</a></li>
+                        <li><a href="#">¿Al intentar iniciar una visita me aparece un mensaje “Ya existe un evento de tipo visita en estado iniciada”?</a></li>
+                        <li><a href="#">¿Cómo borrar datos y caché?</a></li>
+                    </ol>
+                </li>
+        </nav>
         <main>
-        <h1>Español</h1>
-        <p>El español o castellano medieval —también llamado romance castellano1​ ([roˈmanʦe kasteˈʎano])— se refiere a las variantes del castellano habladas en la península ibérica entre el siglo IX hasta entrado el siglo XV aproximadamente; más específicamente, antes de que sucediera el reajuste consonántico que daría origen al español contemporáneo. La primera obra extensa de la literatura en castellano medieval es el llamado Cantar de mio Cid o Poema de mio Cid, creado a finales del siglo XII o principios del XIII por autor anónimo.</p>
-        <p>Los primeros testimonios seguros del castellano medieval se remontarían al siglo XI. En otro tiempo se consideró que la Nodicia de Kesos era uno de los textos más tempranos, aunque hoy en día se considera que ese texto tiene rasgos de un romance asturleonés, igualmente, las glosas emilianenses podrían corresponder a un romance navarroaragonés y no propiamente castellano. Los primeros testimonios literarios conservados se remontan al siglo XII en adelante.</p>
+        <h1 class="display-grande">Grande</h1>
+        <h1 class="display-medio">Medio</h1>
+        <h1 class="display-peque">Pequeño</h1>
+        <h1>Sobre Nosotros:</h1>
+        <h3>Ayudamos a crear equipos más productivos y empresas más rentables.</h3>
+        <p>Sin importar la industria a la que pertenezca tu negocio, Mobile SuitCase te brinda herramientas para mejorar el flujo de la información, la transparencia en tus procesos de negocio y la rentabilidad de los mismos</p><br/>
+        <p>Esta pagina le ayudara a adentrarse en el mundo de la herramienta MobileSuitCase, consulte y conozca todo sobre el manejo, configuraciones, <a href="#">preguntas frecuentes</a>, <a href="#">solicitudes</a>, <a href="#">tutoriales</a> y el <a href="#">proceso de acompañamiento</a> el con el que podra agilizar y tener claro los procesos mencionados y adaptar nuestra solución a sus necesidades.</p>
         </main>
-        <aside class="display-grande display-medio"><p>sdaasdasdasdasdas
-                <br/>saddass</p></aside>
+        <aside class="display-grande display-medio"><p>Prueba Aside
+                <br/>pRUEBA SS</p>
+        </aside>
         <footer>
             <p id="contact"><a href="contacto.html" target="blank">Contacto</a></p>
             <p id="page">© 2018 ,<a href="https://www.mobilesuitcase.com" target="blank">Mobile SuitCase.</a></p>

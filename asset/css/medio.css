@@ -1,33 +1,19 @@
 .display-medio{
     display: inherit !important;
 }
-h1, h2 {
-    text-align: left;
+nav#nav_var_mg, main, aside {
+    float: left !important;
 }
-ul {
-    padding: 0;
+nav#nav_var_mg {
+    width: 20% !important;
 }
-div#art1 {
-    float: left;
-    text-align: left;
-    width: 30%;
-    margin: 0;
+main {
+    width: 60% !important;
 }
-ul#datosp {
-    list-style-type: none;
+aside {
+    width: 20% !important;
+    background-color: red !important;
 }
-ul#datosp li strong {
-    display: block;
-}
-ul#datosp li{
-    margin-bottom: 0.8em;
-}
-section#cold {
-        float: left;
-        width: 70%;
-}
-ul#formaca, ul#explab {
-    list-style-position: inside;
-    width: auto;
-    padding-left: 2em;
+footer {
+    
 }
