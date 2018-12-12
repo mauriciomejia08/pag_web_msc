@@ -3,17 +3,18 @@
 }
 nav#nav_var_mg, main, aside {
     float: left !important;
+    display: block !important;
+    z-index: 1;
 }
 nav#nav_var_mg {
     width: 20% !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    height: 100% !important;
 }
 main {
     width: 60% !important;
 }
 aside {
     width: 20% !important;
-    background-color: red !important;
-}
-footer {
-    
 }
