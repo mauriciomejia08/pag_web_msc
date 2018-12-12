@@ -8,9 +8,9 @@ nav#nav_var_mg, main, aside {
 }
 nav#nav_var_mg {
     width: 20% !important;
-    overflow-y: scroll !important;
+    /*overflow-y: scroll !important;
     overflow-x: hidden !important;
-    height: 100% !important;
+    height: 100% !important;*/
 }
 main {
     width: 60% !important;

@@ -3,9 +3,7 @@ body {
     color: #FFFFE6;
 }
 li a {color: #FFFFE6;}
-nav#var_nav_fija ul {
-    background-color: #e93b38;
-}
+
 li a:hover, a:active {
     background-color: rgba(28, 31, 42, 0.9);
 }

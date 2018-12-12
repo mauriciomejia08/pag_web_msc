@@ -97,3 +97,7 @@ main {
 footer {
     z-index: -1;
 }
+/*Colores*/
+nav#var_nav_fija ul {
+    background-color: #e93b38;
+}

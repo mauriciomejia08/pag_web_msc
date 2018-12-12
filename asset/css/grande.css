@@ -1,20 +1,29 @@
 .display-grande{
     display: inherit !important;
 }
+nav#var_nav_fija {
+    display: block;
+}
+nav#var_nav_fija img, nav#var_nav_fija ul  {
+    display: inline-block !important;
+}
+nav#var_nav_fija img {
+    margin-left: 22%;
+}
 nav#nav_var_mg, main, aside {
     float: left !important;
     display: block !important;
     z-index: 1;
 }
 nav#nav_var_mg {
-    width: 20% !important;
-    overflow-y: scroll !important;
+    width: 23% !important;
+    /*overflow-y: scroll !important;
     overflow-x: hidden !important;
-    height: 100% !important;
+    height: 100% !important;*/
 }
 main {
     width: 60% !important;
 }
 aside {
-    width: 20% !important;
+    width: 17% !important;
 }
