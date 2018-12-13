@@ -5,6 +5,7 @@
         <title>Pagina principal de apoyo MobileSuitCase</title>
         <meta name="viewport" content="width=device-width; initial-scale=1.0">
         <link href="asset/css/base.css" rel="stylesheet" type="text/css"/>
+        <link href="asset/css/Fuentes.css" rel="stylesheet" type="text/css"/>
         <link href="asset/css/color.css" rel="stylesheet" type="text/css"/>
         <link href="asset/css/grande.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" />
         <link href="asset/css/medio.css" rel="stylesheet" type="text/css" media="screen and (min-width: 601px) and (max-width: 1199px)" />
@@ -17,7 +18,7 @@
         </header>
         <nav id="var_nav_fija">
             <img class="display-medio display-grande" src="asset/img/msclogo.png" alt="logo" width="115px" height="66px"/>
-            <ul>
+            <ul id="barraHor">
                 <li class="display-peque" id="dropDown"><a href="javascript:;" onclick="MostrarOcultar('dropbtn',5,100,100,25)"><img src="asset/img/icon-menu50.png" alt="menu" width="100%"/></a>
                     <ul id="dropbtn" style="display: none; width: 0;">
                         <li><a href="javascript:;" onclick="MostrarOcultar('web',5,73,73,25)">web</a>
@@ -58,9 +59,9 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="#">Acompañamiento</a></li>
-                <li><a href="#">Tutoriales</a></li>
-                <li><a href="#">FAQs</a></li>
+                <li class="mostrare"><a href="#">Acompañamiento</a></li>
+                <li class="mostrare"><a href="#">Tutoriales</a></li>
+                <li class="mostrare"><a href="#">FAQs</a></li>
             </ul>
         </nav>
         <div id="navp">

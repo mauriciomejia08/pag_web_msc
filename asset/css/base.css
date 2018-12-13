@@ -50,6 +50,18 @@ h3 {
     font-size: 1.573em !important;
     color: #ffFFFF;
 }
+h4 {
+    margin: 0;
+    font-family:'Metropolis Bold', sans-serif;
+    font-size: 1.357em !important;
+    color: #ffffff;
+}
+h5 {
+    margin: 0;
+    font-family:'Metropolis Bold', sans-serif;
+    font-size: 1.250em !important;
+    color: #ffFFFF;
+}
 h6 {
     margin: 0;
     font-family: 'Metropolis Extra Bold', sans-serif;
@@ -115,4 +127,10 @@ footer p {
 p#page {
     right: 0;
     padding-right: 5%;
+}
+nav#var_nav_fija a {
+    margin: 0;
+    font-family:'Metropolis Regular', sans-serif;
+    font-size: 1.250em !important;
+    color: #ffffff;
 }

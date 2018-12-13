@@ -2,13 +2,23 @@
     display: inherit !important;
 }
 nav#var_nav_fija {
-    display: block;
+    display: block !important;
+    height: 70px !important;
+    margin-bottom: 30px;
 }
-nav#var_nav_fija img, nav#var_nav_fija ul  {
+nav#var_nav_fija img, nav#var_nav_fija ul#barraHor {
+    float: left !important;
+}
+nav#var_nav_fija ul#barraHor {
+    height: 66px !important;
+}
+nav#var_nav_fija li.mostrare {
     display: inline-block !important;
+    line-height: 66px !important;
 }
-nav#var_nav_fija img {
-    margin-left: 22%;
+nav#var_nav_fija ul#barraHor li a {
+    display: block;
+    width: 100%;
 }
 nav#nav_var_mg, main, aside {
     float: left !important;

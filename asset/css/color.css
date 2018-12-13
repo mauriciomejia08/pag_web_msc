@@ -6,6 +6,7 @@ li a {color: #FFFFE6;}
 
 li a:hover, a:active {
     background-color: rgba(28, 31, 42, 0.9);
+    border-bottom: 1px solid #ff4040;
 }
 #dropDown:hover{
     background-color: rgba(28, 31, 42, 0.9);
