@@ -1,20 +1,52 @@
 .display-medio{
     display: inherit !important;
 }
+#spaciohe {
+    height: 30px !important;
+    width: 95% !important;
+    display: block !important;
+}
+nav#var_nav_fija {
+    display: block !important;
+    width: 87% !important;
+    height: 70px !important;
+    margin-bottom: 30px;
+    position: static !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+nav#var_nav_fija img, nav#var_nav_fija ul#barraHor {
+    float: left !important;
+}
+nav#var_nav_fija ul#barraHor {
+    height: 66px !important;
+    float: right !important;
+    right: 0 !important;
+}
+nav#var_nav_fija li.mostrare {
+    display: inline-block !important;
+    line-height: 66px !important;
+}
+nav#var_nav_fija ul#barraHor li a {
+    display: block;
+    width: 100%;
+    padding: 0 0.5em 0 0.5em;
+}
 nav#nav_var_mg, main, aside {
     float: left !important;
     display: block !important;
     z-index: 1;
 }
 nav#nav_var_mg {
-    width: 20% !important;
+    width: 21% !important;
     /*overflow-y: scroll !important;
     overflow-x: hidden !important;
     height: 100% !important;*/
 }
 main {
-    width: 60% !important;
+    width: 62% !important;
+    padding: 0 1em 0 1em !important;
 }
 aside {
-    width: 20% !important;
+    width: 17% !important;
 }

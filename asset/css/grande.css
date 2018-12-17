@@ -1,16 +1,28 @@
 .display-grande{
     display: inherit !important;
 }
+#spaciohe {
+    height: 30px !important;
+    width: 100% !important;
+    display: block !important;
+}
 nav#var_nav_fija {
     display: block !important;
+    width: 80% !important;
     height: 70px !important;
     margin-bottom: 30px;
+    position: static !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 nav#var_nav_fija img, nav#var_nav_fija ul#barraHor {
     float: left !important;
 }
 nav#var_nav_fija ul#barraHor {
     height: 66px !important;
+    margin-right: 0 !important;
+    float: right !important;
+    right: 0 !important;
 }
 nav#var_nav_fija li.mostrare {
     display: inline-block !important;
@@ -19,6 +31,7 @@ nav#var_nav_fija li.mostrare {
 nav#var_nav_fija ul#barraHor li a {
     display: block;
     width: 100%;
+    padding: 0 1em 0 1em;
 }
 nav#nav_var_mg, main, aside {
     float: left !important;
@@ -26,13 +39,14 @@ nav#nav_var_mg, main, aside {
     z-index: 1;
 }
 nav#nav_var_mg {
-    width: 23% !important;
+    width: 21% !important;
     /*overflow-y: scroll !important;
     overflow-x: hidden !important;
     height: 100% !important;*/
 }
 main {
-    width: 60% !important;
+    width: 62% !important;
+    padding: 0 1em 0 1em !important;
 }
 aside {
     width: 17% !important;
