@@ -28,9 +28,10 @@ nav#var_nav_fija ul li {
 }
 nav#var_nav_fija ul li a {
     text-align: center;
-    padding: 0.25em;
+    padding: 0.2em 0.2em 0.51em 0.2em;
     margin: 0;
     display: block;
+    font-size: 0.96em !important;
 }
 li#dropDown {
     margin: 0 !important;
@@ -69,10 +70,6 @@ ul#dropbtn li a{
 }
 ul#web, ul#movil, ul#sol {
     display: block;
-    text-align: right;
-    z-index: 1;
-}
-ul#web, ul#movil, ul#sol {
     text-align: right !important;
     right: 0;
     width: 100%;
@@ -86,9 +83,13 @@ ul#web li, ul#movil li, ul#sol li {
     z-index: 1;
 }
 ul#web a, ul#movil a, ul#sol a {
+    display: block;
     text-align: right !important;
     margin: 0 !important;
     z-index: 2 !important;
+    width: 100% !important;
+    padding: 0.2em !important;
+/*    white-space: nowrap !important;*/
 }
 main {
     padding: 3% 3% 0 3% !important;
