@@ -53,5 +53,26 @@ function disminuye(r1,cont2,limdis){
 	}
 	var stopdism = setInterval(dism ,5);
 }
+function faq2vy(v){
+	var vidy = document.getElementById("faq2v");
+	switch (v){
+		case 1:
+		vidy.src = "https://www.youtube.com/embed/wBBuUJV7Cwc?start=248";
+		alert(v)
+		break;
+		case 2:
+		vidy.src = "https://www.youtube.com/embed/OTjSj24sFPc?start=234";
+		alert(v)
+		break;
+		case 3:
+		vidy.src = "https://www.youtube.com/embed/rg4FPB-i96I?start=433";
+		alert(v)
+		break;
+	}
+}
+/*function ocultar(){
+	alert("ocultar");
+	document.getElementById(dropbtn).style.display = 'none';
+}*/
 //eventos
 //}());

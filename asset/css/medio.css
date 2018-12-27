@@ -39,14 +39,58 @@ nav#nav_var_mg, main, aside {
 }
 nav#nav_var_mg {
     width: 21% !important;
+    height: 100% !important;
     /*overflow-y: scroll !important;
     overflow-x: hidden !important;
     height: 100% !important;*/
 }
+    nav#nav_var_mg ul {
+        width: 100% !important;
+        height: 100% !important;
+    }
+li.litit {
+    text-align: center !important;
+    margin: 0;
+    font-family: 'Metropolis Extra Bold', sans-serif;
+    font-size: 1em !important;
+    color: #ff4040;
+    margin-bottom: 1em;
+}
+li.litit ol {
+    margin-top: 0.9em;
+}
+ol {
+    padding-inline-start: 25px;
+}
+ol > li {
+        font-family: 'Metropolis Light', sans-serif;
+        font-size: 1em !important;
+        color: #ffffff;
+        text-align: left !important;
+        margin-bottom: 0.3em !important;
+        padding-right: 0.2em !important;
+}
 main {
     width: 62% !important;
     padding: 0 1em 0 1em !important;
+    -moz-box-shadow: 2px 0px #D9D9D6, -2px 0px #D9D9D6;
+    -webkit-box-shadow: 2px 0px #D9D9D6, -2px 0px #D9D9D6;
+    box-shadow: 2px 0px #D9D9D6, -2px 0px #D9D9D6;
 }
 aside {
     width: 17% !important;
+    margin: 0;
+    padding: 0 0 0 1em;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+div.row {
+    display: inline-block !important;
+    position: relative !important;
+}
+.row p {
+    width: 100% !important;
+    position: absolute;
+    margin-top: -517px !important;
 }

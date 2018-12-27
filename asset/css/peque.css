@@ -15,6 +15,7 @@ nav#var_nav_fija {
     position:-webkit-sticky !important;
     position: sticky !important;
     top: 0 !important;
+    z-index: 2;
 }
 nav#var_nav_fija > ul {
     text-align: center;
@@ -86,8 +87,8 @@ ul#web a, ul#movil a, ul#sol a {
     display: block;
     text-align: right !important;
     margin: 0 !important;
-    z-index: 2 !important;
-    width: 100% !important;
+    z-index: 3 !important;
+    width: 245px !important;
     padding: 0.2em !important;
 /*    white-space: nowrap !important;*/
 }
@@ -101,4 +102,8 @@ footer {
 /*Colores*/
 nav#var_nav_fija ul {
     background-color: #e93b38;
+}
+.row {
+    display: block !important;
+    padding-bottom: 1em !important;
 }
