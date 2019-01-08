@@ -124,19 +124,19 @@ main {
     article {
         padding-bottom: 1em;
     }
-    ul.seleclist {
-        display: block;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 1em;
-        padding: 0.5em 0 0.5em 0;
-    }
-    .seleclist li {
-        display: inline-block;
-        padding: 0.5em 0.5em 0.5em 0.5em;
-        cursor: pointer !important;
-    } 
+        ul.seleclist {
+            display: block;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1em;
+            padding: 0.5em 0 0.5em 0;
+        }
+        .seleclist li {
+            display: inline-block;
+            padding: 0.5em 0.5em 0.5em 0.5em;
+            cursor: pointer !important;
+        } 
     main iframe {
         display: block;
         width: 90%;

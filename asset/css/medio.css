@@ -32,7 +32,7 @@ nav#var_nav_fija ul#barraHor li a {
     width: 100%;
     padding: 0 0.5em 0 0.5em;
 }
-nav#nav_var_mg, main, aside {
+nav#nav_var_mg, main/*, aside*/ {
     float: left !important;
     display: block !important;
     z-index: 1;
@@ -71,14 +71,14 @@ ol > li {
         padding-right: 0.2em !important;
 }
 main {
-    width: 62% !important;
+    width: 79% !important;
     padding: 0 1em 0 1em !important;
     -moz-box-shadow: 2px 0px #D9D9D6, -2px 0px #D9D9D6;
     -webkit-box-shadow: 2px 0px #D9D9D6, -2px 0px #D9D9D6;
     box-shadow: 2px 0px #D9D9D6, -2px 0px #D9D9D6;
 }
 aside {
-    width: 17% !important;
+    width: 79% !important;
     margin: 0;
     padding: 0 0 0 1em;
     display: block;
