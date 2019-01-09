@@ -58,15 +58,12 @@ function faq2vy(v){
 	switch (v){
 		case 1:
 		vidy.src = "https://www.youtube.com/embed/wBBuUJV7Cwc?start=248";
-		alert(v)
 		break;
 		case 2:
 		vidy.src = "https://www.youtube.com/embed/OTjSj24sFPc?start=234";
-		alert(v)
 		break;
 		case 3:
 		vidy.src = "https://www.youtube.com/embed/rg4FPB-i96I?start=433";
-		alert(v)
 		break;
 	}
 }
