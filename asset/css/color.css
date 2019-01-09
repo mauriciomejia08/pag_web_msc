@@ -8,10 +8,9 @@ li a:hover, a:active {
     background-color: rgba(28, 31, 42, 0.9);
     border-bottom: 1px solid #ff4040;
 }
-.seleclist li:hover, .seleclist li:active {
+.actived {
     background-color: rgba(28, 31, 42, 0.9);
     outline: 1px solid #ff4040;
-    color: #ffffff !important;
 } 
 #dropDown:hover{
     background-color: rgba(28, 31, 42, 0.9);
@@ -19,7 +18,7 @@ li a:hover, a:active {
 p a {
     color: #ffffff;
 }
-ul#dropbtn {
+ul#dropbtn, .seleclist li:hover, .seleclist li:active  {
     background-color: rgba(28, 31, 42, 0.9);
 }
 ul#dropbtn > li {

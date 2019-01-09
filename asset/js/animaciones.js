@@ -1,4 +1,3 @@
-//function(){
 //variables
 var menu = document.getElementById("menuDesp");
 //funciones
@@ -72,4 +71,3 @@ function faq2vy(v){
 	document.getElementById(dropbtn).style.display = 'none';
 }*/
 //eventos
-//}());
