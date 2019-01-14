@@ -18,8 +18,12 @@ li a:hover, a:active {
 p a {
     color: #ffffff;
 }
-ul#dropbtn, .seleclist li:hover, .seleclist li:active  {
+ul#dropbtn {
     background-color: rgba(28, 31, 42, 0.9);
+}
+.seleclist li:hover, .seleclist li:active  {
+    background-color: rgba(28, 31, 42, 0);
+    border: solid 1px #ffffff;
 }
 ul#dropbtn > li {
     border-top: 2px solid rgba(28, 31, 42, 0.9);

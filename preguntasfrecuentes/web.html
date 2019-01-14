@@ -14,7 +14,8 @@
         <link href="../asset/css/peque.css" rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" />
         <script type="text/javascript" src="../asset/js/animaciones.js"></script>
     </head>
-    <body onload="desplegarBarra()">
+    <!--<body onload="desplegarBarra()">-->
+    <body>
         <header>
             <img class="display-peque" src="../asset/img/msclogo.png" alt="logo" width="200px" height=""/>
             <span id="spaciohe" class="display-medio display-grande">&nbsp;</span>
@@ -110,9 +111,9 @@
         
             <p>Una de las funciones es poder cargar información de forma masiva y para ello contamos con el módulo de <span>Importación</span> desde el cual podrá descargar y diligenciar un archivo con los datos correspondientes al ingreso de cuentas, asignación de cuentas a usuarios y programación de visitas a los colaboradores en campo. En el siguiente video se explica a detalle los pasos necesarios:</p><br/>
             <ul class="seleclist">
-                <li onclick="faq2vy(1)">Importar cuentas</li>
-                <li onclick="faq2vy(2)">Importar asignación de cuentas a usuarios</li>
-                <li onclick="faq2vy(3)">Importar visitas</li>
+                <li id="f1" onclick="faq2vy(1)">Importar cuentas</li>
+                <li id="f2" onclick="faq2vy(2)">Importar asignación de cuentas a usuarios</li>
+                <li id="f3" onclick="faq2vy(3)">Importar visitas</li>
             </ul>
             <iframe id="faq2v" width="90%" height="325" src="https://www.youtube.com/embed/rg4FPB-i96I?start=248" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </article>

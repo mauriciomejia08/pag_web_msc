@@ -96,6 +96,10 @@ main {
     padding: 3% 3% 0 3% !important;
     width: 94% !important;
 }
+    .seleclist li {
+        display: block;
+        margin-bottom: 1em;
+    } 
 footer {
     z-index: -1;
 }

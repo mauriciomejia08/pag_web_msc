@@ -1,7 +1,7 @@
 //variables
 var menu = document.getElementById("menuDesp");
 //funciones
-function desplegarBarra(){
+/*function desplegarBarra(){
 		var cont = 1;
 		var tit = document.getElementById("var_nav_fija");
 	
@@ -13,7 +13,7 @@ function desplegarBarra(){
 			}
 		}
 		var despnav = setInterval(Desplegar_navbar ,9);
-}
+}*/
 function MostrarOcultar(r1,aum1,dis1,limaum,limdis){
 	var web1 = document.getElementById("web");
 	var movil1 = document.getElementById("movil");

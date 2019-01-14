@@ -149,8 +149,11 @@ main {
             border-radius: 50px !important;
             font-size: 0.85rem !important;
             color: #ffffff !important;
-            -webkit-transition: background-color 1.2s;
-            transition: background-color 1.2s;
+            border: solid 1px #FF4040;
+            -webkit-transition: background-color 1s;
+            transition: background-color 1s;
+            -webkit-transition: border 1s;
+            transition: border 1s;
         } 
         /*---------------------*/
     main iframe {

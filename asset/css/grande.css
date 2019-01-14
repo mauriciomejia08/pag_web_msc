@@ -56,6 +56,9 @@ main {
     -webkit-box-shadow: 2px 0px #D9D9D6, -2px 0px #D9D9D6;
     box-shadow: 2px 0px #D9D9D6, -2px 0px #D9D9D6;
 }
+    .seleclist li {
+        display: inline-block;
+    } 
 aside {
     width: 17% !important;
     margin: 0;
