@@ -51,3 +51,9 @@ main a {
 #page a {
     color: #ff4040 !important;
 }
+/*General*/
+.buttonLeft:hover, .buttonRight:hover {
+/*-moz-box-shadow: 2px 0px #D9D9D6, -2px 0px #D9D9D6;
+-webkit-box-shadow: 2px 0px #D9D9D6, -2px 0px #D9D9D6;*/
+box-shadow: 1px 1px 1px #ffffff, -1px -1px 1px #ffffff;
+}

@@ -242,6 +242,7 @@ nav#var_nav_fija a {
     font-size: 1.250em;
     color: #ffffff;
 }
+/*Generales*/
 span {
     color: #ff4040;
 }
@@ -250,6 +251,46 @@ span {
 }
 .zoom:hover {
     transform: scale(1.5)
+}
+.buttonLeft {
+    display: block;
+    width: 47px;
+    height: 47px;
+    position:absolute !important;
+    top:450px !important;
+    left:24px !important;
+    background-color: #ff4040;
+    color: #ffffff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    /*padding: 15px 30px;*/
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    font-size: 1.5em;
+    overflow: visible;
+    z-index: 2;
+}
+.buttonRight {
+    display: block;
+    width: 47px;
+    height: 47px;
+    position:absolute !important;
+    top:450px !important;
+    left:206px !important;
+    background-color: #ff4040;
+    color: #ffffff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    /*padding: 15px 30px;*/
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    font-size: 1.5em;
+    overflow: visible;
+    z-index: 2;
 }
 .centrado {
     text-align: center !important;
