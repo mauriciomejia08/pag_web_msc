@@ -1,8 +1,8 @@
 body {
     background-color: rgba(28, 31, 42, 0.9) !important;
-    color: #FFFFE6;
+    color: #ffffff;
 }
-li a {color: #FFFFE6;}
+li a {color: #ffffff;}
 
 li a:hover, a:active {
     background-color: rgba(28, 31, 42, 0.9);
@@ -25,6 +25,12 @@ ul#dropbtn {
     background-color: rgba(28, 31, 42, 0);
     border: solid 1px #ffffff;
 }
+    .seleclist a.linkli {
+        background-color: transparent !important;
+        text-decoration: none !important;
+        outline: none !important;
+        border-bottom: 0 !important;
+    }
 ul#dropbtn > li {
     border-top: 2px solid rgba(28, 31, 42, 0.9);
 }
