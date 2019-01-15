@@ -138,7 +138,6 @@ main {
         .seleclist li {
             /*padding: 0.5em 0.5em 0.5em 0.5em;*/
             cursor: pointer !important;
-
             background-color: #FF4040;
             text-align: center;
             padding: 0.75em 1.25em !important;
@@ -146,16 +145,34 @@ main {
             -moz-border-radius: 50px !important;
             border-radius: 50px !important;
             font-size: 0.85rem !important;
-            color: #ffffff !important;
+            color: #ffffff;
             border: solid 1px #FF4040;
             -webkit-transition: background-color 1s;
             transition: background-color 1s;
             -webkit-transition: border 1s;
             transition: border 1s;
-        }
-            a.linkli {
+        }   
+            .seleclist li.linkli {
+                padding: 0 !important;
+            }
+            .linkli a.linklia {
+                display: block !important;
+                width: 100%;
                 color: #ffffff !important;
                 text-decoration: none !important;
+                cursor: pointer !important;
+                background-color: #FF4040;
+                text-align: center;
+                padding: 0.75em 1.25em !important;
+                -webkit-border-radius: 50px !important;
+                -moz-border-radius: 50px !important;
+                border-radius: 50px !important;
+                font-size: 0.85rem !important;
+                color: #ffffff;
+                -webkit-transition: background-color 1s;
+                transition: background-color 1s;
+                -webkit-transition: border 1s;
+                transition: border 1s;
             }
         /*---------------------*/
     main iframe {
